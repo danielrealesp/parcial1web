@@ -1,16 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react'
 import { Login } from './components/Login'
 import { TableCoffe } from './components/TableCoffe';
+import { FormattedMessage } from 'react-intl'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   const [showCoffe, setShowCoffe] = useState(false)
-  const attemptLogin = async (e) => {
-    e.preventDefault()
-    //Todo: Conectar al backend
+
+  const attemptLogin = async () => {
     console.log("Login exitoso")
     setShowCoffe(true)
   }
@@ -25,10 +24,15 @@ function App() {
           <hr />
         </div>
         <div className='w-full'>
-          {showCoffe ? <TableCoffe/> : <Login callback={attemptLogin} />}
+          {showCoffe ? <TableCoffe /> :
+            <div className='flex justify-center w-full'>
+              <Login callback={attemptLogin} />
+            </div>}
         </div>
         <div className='flex justify-center'>
-          <p>Contact us: +57 3102105253 - info@elaromamagico.com - @elaromamagico</p>
+          <p>
+            <FormattedMessage id='footer' />
+          </p>
         </div>
       </div>
     </div>

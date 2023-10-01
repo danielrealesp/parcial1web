@@ -1,0 +1,15 @@
+{
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Submit",
+    "clear": "Clear",
+    "auth_error": "Authentication error, verify your credentials",
+    "table_name": "Name",
+    "table_type": "Type",
+    "table_region": "Region",
+    "sea": " masl",
+    "notes": "Notes",
+    "coffe_detail_message": "Cultivated at an altitude of ",
+    "footer": "Contact us: +57 3102105253 - info@elaromamagico.com - @elaromamagico"
+}

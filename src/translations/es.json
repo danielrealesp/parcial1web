@@ -1,0 +1,15 @@
+{
+    "login": "Inicio de Sesión",
+    "username": "Nombre de Usuario",
+    "password": "Contraseña",
+    "submit": "Ingresar",
+    "clear": "Cancelar",
+    "auth_error": "Error de autenticación. Revise sus credenciales",
+    "table_name": "Nombre",
+    "table_type": "Tipo",
+    "table_region": "Region",
+    "sea": " msnm",
+    "notes": "Notes",
+    "coffe_detail_message": "Cultivado a una altura de ",
+    "footer": "Contáctanos: +57 3102105253 - info@elaromamagico.com - @elaromamagico"
+}
